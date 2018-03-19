@@ -7,6 +7,7 @@ ratings_path=sys.argv[2]
 users_path=sys.argv[3]
 support=int(sys.argv[4])
 
+# A-Priori Algorithm
 def Get_Candidates(data,threshold):
     local_candidate=dict()
     candidate_set=set()
